@@ -1,0 +1,574 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag" : "about",
+      "patterns":[
+        "Who are You ?",
+        "Tell me about you.",
+        "what do you do?"
+      ],
+      "responses":[
+        "Hello there, My name is Sam. I am a chatbot created to make your college experience better!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "What is your name?",
+        "What do yoou do?"
+      ],
+      "responses": [
+        "I'm here to help you.",
+        "My name is Sam.I am  here to asiist you.",
+        "I am a chatbot that has been built to assist people."
+      ]
+    },
+    {
+      "tag": "principle",
+      "patterns": [
+        "who is the  principle of this college?",
+        "What is the name of the principle of this college?"
+      ],
+      "responses": [
+        "The principle of this college is Dr. Pankaj Kundu."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Which courses are available at this college?",
+        "Which courses does this college offer?",
+        "what are the subject i can take?"
+      ],
+      "responses": [
+        "We offer various courses in the science, commerce, and arts streams.",
+        "We offer UG and PG courses in various subjects. For more information take a look on our college website."
+      ]
+    },
+    {
+      "tag": "Bengali_HoD",
+      "patterns": [
+        "Who is the Hod of Bengali Department?",
+        "What is the name of the hod of bengali department?"
+      ],
+      "responses": [
+        "The HoD of this Department is Dr. Bhaswati Mukhopadhyay(Ph.D)"
+      ]
+    },
+    {
+      "tag": "Bengali_Department",
+      "patterns": [
+        "How many professors are there in bengali department?",
+        "Who are the other professors of bengali department?"
+      ],
+      "responses": [
+        "There are a total 9 professors in the Bengali department. For more information, visit our department profile.",
+        "The Bengali department has nine professors in total. See our department profile for further details."
+      ]
+    },
+    {
+      "tag": "Bengali_Fees",
+      "patterns": [
+        "How much is the fee for doing bengali honours?",
+        "What is the semester fee for BA honours in Bengali?"
+      ],
+      "responses": [
+        "For a 3-year course of BA in Bengali, it will cost 1779 rupees per semester, and for a 4-year course, it will cost 1887 rupees per semester.",
+        ""
+      ]
+    },
+    {
+      "tag": "Botany_HoD",
+      "patterns": [
+        "Who is the Hod of Botany Department?",
+        "What is the name of the hod of Botany department?"
+      ],
+      "responses": [
+        "The HoD of this Department is DR. GOURI DAS(Ph.D)"
+      ]
+    },
+    {
+      "tag": "Botany_Department",
+      "patterns": [
+        "How many professors are there in botany department?",
+        "Who are the other professors of Botany department?"
+      ],
+      "responses": [
+        "There are a total five professors in the Botany department. For more information, visit our department profile.",
+        "The Botany department has five professors in total. See our department profile for further details."
+      ]
+    },
+    {
+      "tag": "Botany_Fees",
+      "patterns": [
+        "How much is the fee for doing Botany honours?",
+        "What is the semester fee for B.Sc honours in Botany?"
+      ],
+      "responses": [
+        "For a 3-year course of BA in Bengali, it will cost 2175 rupees per semester, and for a 4-year course, it will cost 2420 rupees per semester.",
+        ""
+      ]
+    },
+    {
+      "tag": "Chemistry_HoD",
+      "patterns": [
+        "Who is the Hod of Chemistry Department?",
+        "What is the name of the hod of Chemistry department?"
+      ],
+      "responses": [
+        "The HoD of Chemistry Department is Dr. Subhashis Biswas"
+      ]
+    },
+    {
+      "tag": "Chemistry_Department",
+      "patterns": [
+        "How many professors are there in Chemistry department?",
+        "Who are the other professors of Chimestry department?"
+      ],
+      "responses": [
+        "There are a total 6 professors in the Chemistry department. For more information, visit our department profile.",
+        "The Chemistry department has six professors in total. See our department profile for further details."
+      ]
+    },
+    {
+      "tag": "Chemistry_Fees",
+      "patterns": [
+        "How much is the fee for doing Computer Science honours?",
+        "What is the semester fee for B.Sc honours in Compiuter Science"
+      ],
+      "responses": [
+        "For a 3-year course of BA in Bengali, it will cost 2175 rupees per semester, and for a 4-year course, it will cost 2420 rupees per semester."
+      ]
+    },
+    {
+      "tag": "Computer_HoD",
+      "patterns": [
+        "Who is the Hod of Computer Department?",
+        "What is the name of the hod of Computer Science department?"
+      ],
+      "responses": [
+        "The HoD of Computer Science Department is Saikat Gosh"
+      ]
+    },
+    {
+      "tag": "Computer_Department",
+      "patterns": [
+        "How many professors are there in Computer Science department?",
+        "Who are the other professors of Computer Science department?"
+      ],
+      "responses": [
+        "There are a total two professors in the Computer science department. For more information, visit our department profile.",
+        "The Computer Science department has two professors in total. See our department profile for further details."
+      ]
+    },
+    {
+      "tag": "Computer_Fees",
+      "patterns": [
+        "How much is the fee for doing Computer Science honours?",
+        "What is the semester fee for B.Sc honours in Computer Science ?",
+        "What is the fee for doing honours in computer science?"
+      ],
+      "responses": [
+        "For a 3-year course of B.Sc in Computer science, it will cost 4175 rupees per semester, and for a 4-year course, it will cost 7220 rupees per semester."
+      ]
+    },
+    {
+      "tag": "Commarce_HoD",
+      "patterns": [
+        "Who is the Hod of Commarce Department?",
+        "What is the name of the hod of Commarce department?"
+      ],
+      "responses": [
+        "The HoD of Commarce Department is Dr. Amitabha Bhattacharyya(Ph.D)"
+      ]
+    },
+    {
+      "tag": "Commarce_Department",
+      "patterns": [
+        "How many professors are there in Commarce department?",
+        "Who are the other professors of Commarce department?"
+      ],
+      "responses": [
+        "There are a total Five professors in the Commarce department. For more information, visit our department profile.",
+        "The Commarce department has Five professors in total. See our department profile for further details."
+      ]
+    },
+    {
+      "tag": "Commarce_Fees",
+      "patterns": [
+        "How much is the fee for doing Commarce honours?",
+        "What is the semester fee for B.Com honours in Commarce"
+      ],
+      "responses": [
+        "For a 3-year course of B.Com in Commarce, it will cost 1820 rupees per semester, and for a 4-year course, it will cost 1895 rupees per semester."
+      ]
+    },
+    {
+      "tag": "English_HoD",
+      "patterns": [
+        "Who is the Hod of English Department?",
+        "What is the name of the hod of English department?"
+      ],
+      "responses": [
+        "The HoD of English Department is Dr. DEBAJYOTI SARKAR"
+      ]
+    },
+    {
+      "tag": "English_Department",
+      "patterns": [
+        "How many professors are there in English department?",
+        "Who are the other professors of English department?"
+      ],
+      "responses": [
+        "There are a total Seven professors in the English department. For more information, visit our department profile.",
+        "The English department has Seven professors in total. See our department profile for further details."
+      ]
+    },
+    {
+      "tag": "English_Fees",
+      "patterns": [
+        "How much is the fee for doing English honours?",
+        "What is the semester fee for BA honours in English"
+      ],
+      "responses": [
+        "For a 3-year course of BA in English, it will cost 1790 rupees per semester, and for a 4-year course, it will cost 1865 rupees per semester."
+      ]
+    },
+    {
+      "tag": "Economics_HoD",
+      "patterns": [
+        "Who is the Hod of Economics Department?",
+        "What is the name of the hod of Economics department?"
+      ],
+      "responses": [
+        "The HoD of Economics Department is Dr. Pankaj Kundu"
+      ]
+    },
+    {
+      "tag": "Economics_Department",
+      "patterns": [
+        "How many professors are there in Economics department?",
+        "Who are the other professors of Economics department?"
+      ],
+      "responses": [
+        "There are a total five professors in the Economics department. For more information, visit our department profile.",
+        "The Economics department has five professors in total. See our department profile for further details."
+      ]
+    },
+    {
+      "tag": "Economics_Fees",
+      "patterns": [
+        "How much is the fee for doing Economics honours?",
+        "What is the semester fee for BA honours in Economics"
+      ],
+      "responses": [
+        "For a 3-year course of BA in English, it will cost 1790 rupees per semester, and for a 4-year course, it will cost 1865 rupees per semester."
+      ]
+    },
+    {
+      "tag": "Education_HoD",
+      "patterns": [
+        "Who is the Hod of Education Department?",
+        "What is the name of the hod of Education department?"
+      ],
+      "responses": [
+        "The HoD of Education Department is Mr.Bidyut Sarkar"
+      ]
+    },
+    {
+      "tag": "Education_Department",
+      "patterns": [
+        "How many professors are there in education department?",
+        "Who are the other professors of education department?"
+      ],
+      "responses": [
+        "There are a total three professors in the Education department. For more information, visit our department profile.",
+        "The Education department has three professors in total. See our department profile for further details."
+      ]
+    },
+    {
+      "tag": "Education_Fees",
+      "patterns": [
+        "How much is the fee for doing Education honours?",
+        "What is the semester fee for BA honours in Education"
+      ],
+      "responses": [
+        "For a 3-year course of BA in Education, it will cost 1790 rupees per semester, and for a 4-year course, it will cost 1865 rupees per semester."
+      ]
+    },
+    {
+      "tag": "History_HoD",
+      "patterns": [
+        "Who is the Hod of History Department?",
+        "What is the name of the hod of History department?"
+      ],
+      "responses": [
+        "The HoD of History Department is Mr. Bibek Das"
+      ]
+    },
+    {
+      "tag": "History_Department",
+      "patterns": [
+        "How many professors are there in History department?",
+        "Who are the other professors of History department?"
+      ],
+      "responses": [
+        "There are a total eleven professors in the History department. For more information, visit our department profile.",
+        "The History department has eleven professors in total. See our department profile for further details."
+      ]
+    },
+    {
+      "tag": "History_Fees",
+      "patterns": [
+        "How much is the fee for doing History honours?",
+        "What is the semester fee for BA honours in History"
+      ],
+      "responses": [
+        "For a 3-year course of BA in History, it will cost 1790 rupees per semester, and for a 4-year course, it will cost 1865 rupees per semester."
+      ]
+    },
+    {
+      "tag": "Mathematics_HoD",
+      "patterns": [
+        "Who is the Hod of Math Department?",
+        "What is the name of the hod of mathematics department?"
+      ],
+      "responses": [
+        "The HoD of Mathematics Department is Mr. PRASANTA DHAIR"
+      ]
+    },
+    {
+      "tag": "Mathematics_Department",
+      "patterns": [
+        "How many professors are there in math department?",
+        "Who are the other professors of Mathematics department?"
+      ],
+      "responses": [
+        "There are a total four professors in the Math department. For more information, visit our department profile.",
+        "The Mathematics department has four professors in total. See our department profile for further details."
+      ]
+    },
+    {
+      "tag": "Mathematics_Fees",
+      "patterns": [
+        "How much is the fee for doing Mathematics honours?",
+        "What is the semester fee for B.Sc honours in Mathematics"
+      ],
+      "responses": [
+        "For a 3-year course of B.Sc in Mathematics, it will cost 2175 rupees per semester, and for a 4-year course, it will cost 2420 rupees per semester."
+      ]
+    },
+    {
+      "tag": "Politics_HoD",
+      "patterns": [
+        "Who is the Hod of Political Science Department?",
+        "What is the name of the hod of Political Science department?"
+      ],
+      "responses": [
+        "The HoD of Political Science Department is Dr.Bandana Ghosh"
+      ]
+    },
+    {
+      "tag": "Politics_Department",
+      "patterns": [
+        "How many professors are there in political Science department?",
+        "Who are the other professors of political Science department?"
+      ],
+      "responses": [
+        "There are a total four professors in the Political Science department. For more information, visit our department profile.",
+        "The Political Science department has four professors in total. See our department profile for further details."
+      ]
+    },
+    {
+      "tag": "Politics_Fees",
+      "patterns": [
+        "How much is the fee for doing Political Science honours?",
+        "What is the semester fee for BA honours in Political science"
+      ],
+      "responses": [
+        "For a 3-year course of BA in Political Science, it will cost 1790 rupees per semester, and for a 4-year course, it will cost 1865 rupees per semester."
+      ]
+    },
+    {
+      "tag": "Physics_HoD",
+      "patterns": [
+        "Who is the Hod of Physics Department?",
+        "What is the name of the hod of Physics department?"
+      ],
+      "responses": [
+        "The HoD of physics Department is Dr. Dulal Barman"
+      ]
+    },
+    {
+      "tag": "Physics_Department",
+      "patterns": [
+        "How many professors are there in physics department?",
+        "Who are the other professors of physics department?"
+      ],
+      "responses": [
+        "There are a total six professors in the Physics department. For more information, visit our department profile.",
+        "The Physics department has six professors in total. See our department profile for further details."
+      ]
+    },
+    {
+      "tag": "physics_Fees",
+      "patterns": [
+        "How much is the fee for doing Physics honours?",
+        "What is the semester fee for B.Sc honours in Physics"
+      ],
+      "responses": [
+        "For a 3-year course of B.Sc in physics, it will cost 2175 rupees per semester, and for a 4-year course, it will cost 2420 rupees per semester."
+      ]
+    },
+    {
+      "tag": "Philosophy_HoD",
+      "patterns": [
+        "Who is the Hod of Philosophy Department?",
+        "What is the name of the hod of Philosophy department?"
+      ],
+      "responses": [
+        "The HoD of Philosophy Department is Dr. Chhanda Chatterjee"
+      ]
+    },
+    {
+      "tag": "Philosophy_Department",
+      "patterns": [
+        "How many professors are there in Philosophy department?",
+        "Who are the other professors of Philosophy department?"
+      ],
+      "responses": [
+        "There are a total six professors in the Philosophy department. For more information, visit our department profile.",
+        "The Philosophy department has six professors in total. See our department profile for further details."
+      ]
+    },
+    {
+      "tag": "Philosophy_Fees",
+      "patterns": [
+        "How much is the fee for doing Philosophy honours?",
+        "What is the semester fee for BA honours in Philosophy"
+      ],
+      "responses": [
+        "For a 3-year course of BA in Philosophy, it will cost 1790 rupees per semester, and for a 4-year course, it will cost 1865 rupees per semester."
+      ]
+    },
+    {
+      "tag": "Sanskrit_HoD",
+      "patterns": [
+        "Who is the Hod of Sanskrit Department?",
+        "What is the name of the hod of Sanskrit department?"
+      ],
+      "responses": [
+        "The HoD of Sanskrit Department is Dr. Debashish Natta"
+      ]
+    },
+    {
+      "tag": "Sanskrit_Department",
+      "patterns": [
+        "How many professors are there in Sanskrit department?",
+        "Who are the other professors of Sanskrit department?"
+      ],
+      "responses": [
+        "There are a total nine professors in the Sanskrit department. For more information, visit our department profile.",
+        "The Sanskrit department has nine professors in total. See our department profile for further details."
+      ]
+    },
+    {
+      "tag": "Sanskrit_Fees",
+      "patterns": [
+        "How much is the fee for doing Sanskrit honours?",
+        "What is the semester fee for BA honours in Sanskrit"
+      ],
+      "responses": [
+        "For a 3-year course of BA in Sanskrit, it will cost 1790 rupees per semester, and for a 4-year course, it will cost 1865 rupees per semester."
+      ]
+    },
+    {
+      "tag": "Zology_HoD",
+      "patterns": [
+        "Who is the Hod of zology Department?",
+        "What is the name of the hod of zology department?"
+      ],
+      "responses": [
+        "The HoD of zology Department is Dr. Tathagata Chakraborty"
+      ]
+    },
+    {
+      "tag": "Zology_Department",
+      "patterns": [
+        "How many professors are there in zology department?",
+        "Who are the other professors of zology department?"
+      ],
+      "responses": [
+        "There are a total three professors in the zology department. For more information, visit our department profile.",
+        "The zology department has three professors in total. See our department profile for further details."
+      ]
+    },
+    {
+      "tag": "Zology_Fees",
+      "patterns": [
+        "How much is the fee for doing Zology honours?",
+        "What is the semester fee for B.SC honours in Zology"
+      ],
+      "responses": [
+        "For a 3-year course of B.Sc in zology, it will cost 2175 rupees per semester, and for a 4-year course, it will cost 2420 rupees per semester."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "another one"
+      ],
+      "responses": [
+        "Why did the student eat his homework? Because the teacher told him it was a piece of cake! 🍰",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
